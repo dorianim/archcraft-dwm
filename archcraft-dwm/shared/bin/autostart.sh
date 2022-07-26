@@ -48,4 +48,4 @@ wmname "LG3D"
 ## -----------------------------------------------
 
 # Launch DWM
-dwm
+while dwm; [ $? -ne 0  ]; do echo "start dwm"; done
